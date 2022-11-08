@@ -28,7 +28,6 @@ header {
 
 nav {
     background-color: #043D1C;
-
 }
 
 main {
@@ -49,14 +48,15 @@ p {
     text-indent: 20pt;
 }
 
-p.menu {
+a.menu {
+    text-decoration: none;
     display: inline-block;
     padding: 5px;
     color: #52c481;
     text-align: left;
 }
 
-P.menu:hover {
+a.menu:hover {
     background-color: #52c481;
     color: #106234;
 }
