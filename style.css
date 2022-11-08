@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 231, 162);
+    font-size: 1.10em;
+}
+
+header {
+    background-image: linear-gradient(to top, #043D1C, #084621,#106234, #1C8046, #24874E);
+    color: white;
+    height: 150px;
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: #043D1C;
+
+}
+
+main {
+    padding: 20pt;
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: #043D1C;
+    color: white;
+}
+
+p {
+    text-indent: 20pt;
+}
+
+p.menu {
+    display: inline-block;
+    padding: 5px;
+    color: #52c481;
+    text-align: left;
+}
+
+P.menu:hover {
+    background-color: #52c481;
+    color: #106234;
+}
+
+h1, h2 {
+    font-family: Idroid;
+    color: #043D1C;
+    font-weight: normal;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #52c481, white);
+    margin: 20px;
+}
+
+h1#principal {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+div.extra {
+    margin: 10px;
+    background-color: #52c481;
+    border-radius: 10px;
+}
+
+div.extra > h1 {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #084621;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.extra > p {
+    padding: 10px;
+}
+
+ul {
+    margin: 20px;
+    display: inline-block;
+    width: 400px;
+}
+
+img#bugdroid {
+    margin: auto;
+    display: block;
+}
