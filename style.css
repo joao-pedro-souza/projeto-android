@@ -52,12 +52,6 @@ main {
     text-align: justify;
 }
 
-footer {
-    text-align: center;
-    background-color: var(--cor5);
-    color: white;
-}
-
 .linkrodape {
     color: white;
     text-decoration: none;
@@ -129,4 +123,10 @@ img {
 img#bugdroid {
     margin: auto;
     display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor5);
+    color: white;
 }
