@@ -35,14 +35,14 @@ header {
     text-align: center;
 }
 
-header > h1 {
+header h1 {
     font-size: 3em;
     margin-bottom: 20px;
     font-family: var(--fonte-destaque);
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.247);
 }
-header > p {
+header p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
@@ -59,7 +59,7 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.137);
 }
 
-nav > a {
+nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -68,7 +68,7 @@ nav > a {
     transition-duration: 0.5s;
 }
 
-nav > a:hover {
+nav a:hover {
     background-color: var(--cor1);
     color: var(--cor5);
 }
@@ -84,10 +84,18 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
 }
 
-main > p {
+main p {
     margin: 15px 0px;
-    text-indent: 20pt;
+    text-indent: 30px;
     text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
 }
 
 h1, h2 {
@@ -107,7 +115,7 @@ aside.extra {
     border-radius: 10px;
 }
 
-aside.extra > h1 {
+aside.extra h1 {
     padding: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -116,7 +124,7 @@ aside.extra > h1 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside.extra > p {
+aside.extra p {
     padding: 10px;
 }
 
