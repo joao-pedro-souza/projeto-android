@@ -66,12 +66,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
     transition-duration: 0.5s;
+    margin-bottom: 20px;
 }
 
 nav a:hover {
