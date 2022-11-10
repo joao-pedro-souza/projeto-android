@@ -112,15 +112,15 @@ main a:hover {
     color: var(--cor4);
 }
 
-h1, h2 {
+main h1 {
     font-family: var(--font-android);
-    color: #043D1C;
-    font-weight: normal;
+    color: var(--cor5);
 }
 
-h2 {
+main h2 {
     background-image: linear-gradient(to right, var(--cor1), white);
-    margin: 20px;
+    color: var(--cor4);
+    font-size: 1.3em;
 }
 
 aside.extra {
