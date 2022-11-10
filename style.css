@@ -36,6 +36,13 @@ header {
     text-align: center;
 }
 
+header > h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
+    color: white;
+}
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
@@ -92,13 +99,6 @@ h1, h2 {
 h2 {
     background-image: linear-gradient(to right, var(--cor1), white);
     margin: 20px;
-}
-
-h1#principal {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-family: var(--fonte-destaque);
-    color: white;
 }
 
 aside.extra {
