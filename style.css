@@ -121,6 +121,8 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor1), white);
     color: var(--cor4);
     font-size: 1.3em;
+    text-indent: 8px;
+    font-family: var(--font-android);
 }
 
 aside.extra {
