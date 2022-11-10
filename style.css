@@ -31,12 +31,17 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
-    color: white;
     min-height: 150px;
     padding: 5px;
-    position: relative;
-    font-weight: bold;
     text-align: center;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    margin: auto;
 }
 
 nav {
@@ -91,6 +96,7 @@ h2 {
 
 h1#principal {
     margin-top: 30px;
+    margin-bottom: 20px;
     font-family: var(--fonte-destaque);
     color: white;
 }
