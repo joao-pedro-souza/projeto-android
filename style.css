@@ -45,8 +45,8 @@ nav {
 
 main {
     padding: 20pt;
-    min-width: 320px;
-    max-width: 800px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     background-color: white;
     text-align: justify;
