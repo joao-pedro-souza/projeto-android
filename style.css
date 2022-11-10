@@ -118,6 +118,9 @@ ul {
     width: 400px;
 }
 
+img {
+    width: 100%;
+}
 img#bugdroid {
     margin: auto;
     display: block;
